@@ -1,0 +1,32 @@
+# generated test fixtures (reproduce with tests/fixtures.py)
+tests/fixtures/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.egg
+
+# tooling / environments
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# local analysis output
+forensic_report_*.html
+metadata_*.json
+sanitized_*

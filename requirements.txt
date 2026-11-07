@@ -1,0 +1,7 @@
+Pillow>=10.0.0
+numpy>=1.26.0
+PySide6>=6.6
+opencv-python-headless>=4.9
+scipy>=1.11
+scikit-image>=0.22
+piexif>=1.1  # test fixtures only: writes realistic camera EXIF (incl. thumbnails)
